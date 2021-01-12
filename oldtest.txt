@@ -1,0 +1,18 @@
+console echo text 'this is a test'
+console echo text 'test'
+var singular test 'this is a test'
+var list testa 'test' 1 'hi' true
+console echo list testa
+console echo variables test test
+var tree root testroot
+var tree branch testbranch for testroot
+var tree list testlist for testroot
+console echo object testroot
+var singular teser 'test'
+var singular tester 'ee'
+if teser is tester
+console echo text 'equals'
+elif tester isn't teser
+console echo text "doesn't equal"
+end
+console echo text 'wee'

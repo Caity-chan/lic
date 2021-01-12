@@ -1,0 +1,9 @@
+var modular js import express as express
+module rundefine app for express
+var modular lic define test args req res
+console echo singular 'test get'
+var singular response 'test send'
+module run res.send args response
+end
+module run app.get args '/' test
+module run app.listen args 3000

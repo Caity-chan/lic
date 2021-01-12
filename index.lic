@@ -1,0 +1,28 @@
+var modular js import discord.js as Discord
+module instance client for Discord.Client
+var singular token 'Nzk2NDQ3OTY4NDQ1NTk1NjY4.X_YD-A.wSxUjNeRfkuI1VYN7ReVIpeHN6k'
+
+console echo object client.guilds
+
+var modular lic define testmod args message
+
+if message.author.bot is false
+if "lic." starts message.content
+var singular newmsg message.content.slice(4).split(' ')
+var singular command newmsg[0]
+var singular args newmsg.slice(1)
+if "test" is command
+var singular newmsg "This is indeed a test"
+module run message.channel.send args newmsg
+end
+if "test2" is command
+var singular newmsg "This is indeed also a test"
+module run message.channel.send args newmsg
+end
+end
+end
+end
+
+
+module run client.on args 'message' testmod
+module run client.login args token
